@@ -6,19 +6,20 @@ caret-color: transparent;
 }
 
 html{
-scroll-behavior:smooth;
+    scroll-behavior:smooth;
+    overflow-x:hidden;
 }
 
 body{
-font-family:"Poppins",sans-serif;
-background:linear-gradient(
-180deg,
-#0d0d0d 0%,
-#111 50%,
-#0d0d0d 100%
-);
-color:#fff;
-overflow-x:hidden;
+    font-family:"Poppins",sans-serif;
+    background:linear-gradient(
+    180deg,
+    #0d0d0d 0%,
+    #111 50%,
+    #0d0d0d 100%
+    );
+    color:#fff;
+    overflow-x:hidden;
 }
 
 .container{
@@ -104,6 +105,7 @@ width:100%;
 .hero{
     padding:60px 0;
     position:relative;
+    overflow:hidden;
 }
 
 .hero-content{
@@ -271,10 +273,11 @@ margin-bottom:12px;
 }
 
 .contact{
-text-align:center;
-background:#111;
-border-radius:20px;
-padding:50px;
+    text-align:center;
+    background:#111;
+    border-radius:20px;
+    padding:50px;
+    overflow:hidden;
 }
 
 .contact p{
