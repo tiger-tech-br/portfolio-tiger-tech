@@ -78,8 +78,9 @@ ul{margin:0;padding:0;list-style:none}
 .hero{display:grid;grid-template-columns:minmax(0,.87fr) minmax(0,1.13fr);align-items:center;gap:0;min-height:355px;padding-top:16px;padding-bottom:13px;position:relative;isolation:isolate}
 .hero::before{content:"";position:absolute;z-index:-1;inset:0 -50px;background:radial-gradient(ellipse 70% 68% at 70% 56%,#9e460e40,transparent 80%),linear-gradient(90deg,transparent 10%,#10080529 65%,transparent)}
 .hero-copy{position:relative;z-index:3;padding-bottom:8px}
-.hero h1{font-size:clamp(43px,4.6vw,64px);line-height:1.06;letter-spacing:-2.5px;font-weight:800;text-wrap:balance;text-shadow:0 3px 12px #000}
-.hero h1 span{display:block;color:#ffb632;background:linear-gradient(180deg,#ffdb6d 0%,#ffb331 55%,#ff840b 100%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+/* Reserva espaço para descendentes (ex.: a letra “g” de Tiger), sem recortar o degradê. */
+.hero h1{font-size:clamp(43px,4.6vw,64px);line-height:1.17;letter-spacing:-2.5px;font-weight:800;text-wrap:balance;text-shadow:0 3px 12px #000}
+.hero h1 span{display:block;line-height:1.18;padding-bottom:.13em;color:#ffb632;background:linear-gradient(180deg,#ffdb6d 0%,#ffb331 55%,#ff840b 100%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 .hero-description{font-size:clamp(15px,1.4vw,20px);line-height:1.5;color:#f4efe9;margin:16px 0 19px;max-width:450px}
 .button-primary{display:inline-flex;align-items:center;justify-content:center;gap:13px;padding:13px 23px;min-height:52px;border:1px solid #ffdb77;border-radius:99px;background:linear-gradient(180deg,#ffdf67 0%,#ffb426 48%,#f48b09 100%);box-shadow:0 0 0 3px #ffb63812,0 6px 13px #03020180,0 0 21px #ffad2688,inset 0 1px 1px #fff9c7;color:#1d0c00;text-transform:uppercase;font-weight:800;font-size:clamp(11px,1.05vw,14px);white-space:nowrap;transition:transform .2s,box-shadow .2s}
 .button-primary:hover{transform:translateY(-3px);box-shadow:0 0 35px #ffac26aa}
