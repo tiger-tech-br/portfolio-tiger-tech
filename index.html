@@ -1,24 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfólio Tiger Tech: criação de sites institucionais, landing pages, catálogos digitais e sistemas web para negócios.">
-  <meta name="theme-color" content="#080705">
-  <title>Portfólio | Tiger Tech — Soluções em Informática</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio Tiger Tech: sites, landing pages, lojas virtuais, catálogos digitais e sistemas web para negócios.">
+  <meta name="theme-color" content="#050403">
+  <title>Portfólio Tiger Tech | Soluções em Informática</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oxanium:wght@500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Ícones vetoriais internos: o site não depende de biblioteca de ícones. -->
   <svg class="svg-sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
     <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
     <symbol id="i-external" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
     <symbol id="i-window" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></symbol>
     <symbol id="i-building" viewBox="0 0 24 24"><rect x="3" y="4" width="10" height="17" rx="1"/><path d="M13 10h8v11H3M7 8h2m-2 4h2m-2 4h2m8-2h1m-1 3h1"/></symbol>
-    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 10 5-10 5L2 7l10-5Zm-10 10 10 5 10-5M2 17l10 5 10-5"/></symbol>
     <symbol id="i-cart" viewBox="0 0 24 24"><circle cx="9" cy="20" r="1"/><circle cx="19" cy="20" r="1"/><path d="M2 3h3l2.5 12h12l2.5-9H6"/></symbol>
     <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M2 13h20m-11 0v2h2v-2"/></symbol>
     <symbol id="i-message" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-8.5 8.3 9 9 0 0 1-4-.9L3 21l1.6-5a8.2 8.2 0 0 1-1.1-4.1A8.6 8.6 0 0 1 12 3.5a8.5 8.5 0 0 1 9 8Z"/><path d="M8.5 10.5h7m-7 3h5"/></symbol>
@@ -28,14 +26,14 @@
     <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
     <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
   </svg>
-
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-
   <div class="site-frame" id="inicio">
+    <!-- A faixa superior é apenas uma moldura decorativa, inspirada no mockup aprovado. -->
+    <div class="browser-chrome" aria-hidden="true"><span class="traffic-lights"><i></i><i></i><i></i></span><span class="browser-back">‹ &nbsp; ›</span><span class="address-bar"></span></div>
     <header class="site-header">
       <div class="container header-content">
-        <div class="brand" aria-label="Tiger Tech">
-          <img src="images/tigre-emblema.webp" width="98" height="76" alt="" class="brand-tiger">
+        <div class="brand" aria-label="Tiger Tech — Soluções em Informática">
+          <img src="images/tigre-circular.webp" width="90" height="90" alt="Emblema do tigre da Tiger Tech" class="brand-tiger">
           <span class="brand-name"><strong>TIGER</strong><em>TECH</em><small>SOLUÇÕES EM INFORMÁTICA</small></span>
         </div>
         <nav class="desktop-nav" aria-label="Navegação principal">
@@ -46,99 +44,65 @@
           <a href="#contato">Contato</a>
         </nav>
         <details class="mobile-menu">
-          <summary aria-label="Abrir ou fechar menu de navegação"><span></span><span></span><span></span><span class="sr-only">Menu</span></summary>
+          <summary aria-label="Abrir ou fechar o menu de navegação"><span></span><span></span><span></span><span class="sr-only">Menu</span></summary>
           <nav aria-label="Navegação para dispositivos móveis">
             <a href="#inicio">Início</a><a href="#projetos">Projetos</a><a href="#servicos">Serviços</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a>
           </nav>
         </details>
       </div>
     </header>
-
     <main id="conteudo">
       <section class="hero container" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span></span> CRIAÇÃO DE SITES E SISTEMAS</p>
           <h1 id="hero-title">Portfólio <span>Tiger Tech</span></h1>
           <p class="hero-description">Sites, landing pages e sistemas com visual profissional e foco em resultado.</p>
-          <a class="button-primary" href="https://ig.me/m/ofctigertech" target="_blank" rel="noopener noreferrer" aria-label="Solicitar orçamento pelo Instagram Direct (abre em nova aba)">
-            Solicite seu orçamento <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
-          </a>
+          <a class="button-primary" href="https://ig.me/m/ofctigertech" target="_blank" rel="noopener noreferrer" aria-label="Solicite seu orçamento pelo Instagram Direct (abre em nova aba)">Solicite seu orçamento <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
           <p class="hero-microcopy">Atendimento pelo Instagram Direct</p>
         </div>
-
-        <!-- Mockup decorativo criado em HTML/CSS: não é captura real de um projeto. -->
-        <div class="hero-devices" aria-hidden="true">
-          <div class="hero-light"></div>
-          <div class="laptop">
-            <div class="laptop-screen">
-              <div class="demo-header"><span class="demo-logo">VIVERE<small>CLÍNICA INTEGRADA</small></span><span class="demo-menu">Início &nbsp; Especialidades &nbsp; Equipe &nbsp; Contato</span><i></i></div>
-              <div class="demo-main">
-                <div class="demo-copy"><small>CUIDADO E BEM-ESTAR</small><strong>Seu cuidado<br>começa aqui.</strong><span>Um espaço para cuidar do que importa.</span><b>CONHEÇA A CLÍNICA &nbsp; ↗</b></div>
-                <div class="demo-photo"><div class="demo-photo-arch"></div><div class="demo-photo-circle"></div><div class="demo-photo-leaf leaf-1"></div><div class="demo-photo-leaf leaf-2"></div><div class="demo-photo-stand"></div></div>
-              </div>
-              <div class="demo-panels"><span><i>✦</i> Atendimento humanizado</span><span><i>✦</i> Equipe dedicada</span><span><i>✦</i> Bem-estar em primeiro lugar</span></div>
-            </div>
-            <div class="laptop-base"><span></span></div>
-          </div>
-          <div class="phone">
-            <div class="phone-notch"></div>
-            <div class="phone-header"><span>VIVERE</span><span>☰</span></div>
-            <div class="phone-copy"><small>CUIDADO E BEM-ESTAR</small><strong>Seu cuidado<br>começa aqui.</strong><span>Um espaço para você.</span><i></i></div>
-            <div class="phone-art"><div class="phone-art-arch"></div><div class="phone-art-circle"></div></div>
-            <div class="phone-bottom"><span></span><span></span><span></span></div>
-          </div>
-          <span class="preview-caption">Prévia ilustrativa de site responsivo</span>
+        <div class="hero-devices">
+          <img src="images/hero-clinica-lumina.webp" alt="Mockups de notebook e celular mostrando a landing page demonstrativa da Clínica Lumina" width="632" height="314" fetchpriority="high">
         </div>
       </section>
-
       <section class="section projects-section container" id="projetos" aria-labelledby="projects-title">
         <div class="section-title"><span class="title-rule"></span><h2 id="projects-title">Projetos em <span>destaque</span></h2><span class="title-rule"></span></div>
-        <p class="section-subtitle">Alguns sites e experiências desenvolvidos para diferentes segmentos.</p>
         <div class="project-grid">
-          <a class="project-card" href="https://tiger-tech-br.github.io/clinica-lumina/" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto Clínica Vivere (nova aba)">
-            <div class="project-visual preview-vivere"><div class="mini-browser"><span>CLÍNICA LUMINA</span><i>Clínica integrada</i><div class="pv-decor"></div><strong>Um cuidado<br>que acolhe.</strong><b>CONHEÇA MAIS</b></div></div>
-            <div class="project-info"><div><span class="project-type">SITE INSTITUCIONAL</span><h3>Clínica Lumina</h3><p>Apresentação de serviços e especialidades.</p></div><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></div>
+          <a class="project-card" href="https://tiger-tech-br.github.io/clinica-lumina/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Clínica Lumina, projeto demonstrativo (nova aba)">
+            <div class="project-visual preview-lumina"><img src="images/clinica-lumina-preview.webp" alt="Prévia da Clínica Lumina" loading="lazy" width="365" height="233"></div>
+            <div class="project-info"><div><span class="project-type">LANDING PAGE · DEMONSTRATIVO</span><h3>Clínica Lumina</h3><p>Apresentação moderna de clínica e especialidades.</p></div><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></div>
           </a>
-          <a class="project-card" href="https://tiger-tech-br.github.io/barber-studio/" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto Barber Studio (nova aba)">
+          <a class="project-card" href="https://tiger-tech-br.github.io/barber-studio/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Barber Studio (nova aba)">
             <div class="project-visual preview-barber"><div class="barber-pattern"></div><div class="preview-center"><span>ESTILO &amp; TRADIÇÃO</span><strong>BARBER<br>STUDIO</strong><small>O SEU ESTILO, EM CADA DETALHE</small></div></div>
             <div class="project-info"><div><span class="project-type">SITE COMERCIAL</span><h3>Barber Studio</h3><p>Presença digital para uma barbearia.</p></div><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></div>
           </a>
-          <a class="project-card" href="https://tiger-tech-br.github.io/sweet-cakes/" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto Sweet Cake (nova aba)">
+          <a class="project-card" href="https://tiger-tech-br.github.io/sweet-cakes/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Sweet Cake (nova aba)">
             <div class="project-visual preview-sweet"><div class="sweet-ribbon">feito com carinho</div><div class="sweet-cake"><span></span><i></i></div><div class="sweet-name">Sweet Cake<small>UM TOQUE DE DOÇURA</small></div></div>
             <div class="project-info"><div><span class="project-type">CATÁLOGO DIGITAL</span><h3>Sweet Cake</h3><p>Catálogo e apresentação de confeitaria.</p></div><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></div>
           </a>
-          <a class="project-card" href="https://tiger-tech-br.github.io/clinica-lumina/" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto demonstrativo Clínica Lumina (nova aba)">
-            <div class="project-visual preview-lumina"><div class="lumina-top">LUMINA <span>SAÚDE INTEGRADA</span></div><div class="lumina-orb"></div><div class="lumina-line"></div><strong>Um novo olhar<br>para cuidar<br>de você.</strong><b>CLÍNICA DEMONSTRATIVA</b></div>
-            <div class="project-info"><div><span class="project-type">LANDING PAGE • DEMONSTRATIVO</span><h3>Clínica Lumina</h3><p>Experiência elegante para a área da saúde.</p></div><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></div>
+          <a class="project-card" href="https://tiger-tech-br.github.io/pizzaria-express/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Pizzaria Express (nova aba)">
+            <div class="project-visual preview-pizza"><div class="pizza-disc"><i></i><i></i><i></i><i></i><i></i></div><div class="pizza-name">PIZZA<br>EXPRESS<span>O SABOR QUE REÚNE</span></div></div>
+            <div class="project-info"><div><span class="project-type">LANDING PAGE</span><h3>Pizzaria Express</h3><p>Cardápio digital e apresentação para pizzaria.</p></div><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></div>
           </a>
         </div>
-
         <details class="more-projects">
           <summary><span class="more-closed">Ver todos os projetos</span><span class="more-open">Mostrar menos projetos</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></summary>
           <div class="project-grid more-grid">
-            <a class="project-card" href="https://tiger-tech-br.github.io/pizzaria-express/" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto Pizzaria Express (nova aba)">
-              <div class="project-visual preview-pizza"><div class="pizza-disc"><i></i><i></i><i></i><i></i><i></i></div><div class="pizza-name">PIZZA<br>EXPRESS<span>O SABOR QUE REÚNE</span></div></div>
-              <div class="project-info"><div><span class="project-type">LANDING PAGE</span><h3>Pizzaria Express</h3><p>Cardápio e apresentação para pizzaria.</p></div><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></div>
-            </a>
-            <a class="project-card" href="https://tiger-tech-br.github.io/nails-studio/" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto Nails Studio (nova aba)">
+            <a class="project-card" href="https://tiger-tech-br.github.io/nails-studio/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Nails Studio (nova aba)">
               <div class="project-visual preview-nails"><div class="nails-ring"></div><strong>nails<span>STUDIO</span></strong><small>BELEZA NOS DETALHES</small></div>
-              <div class="project-info"><div><span class="project-type">SITE INSTITUCIONAL</span><h3>Nails Studio</h3><p>Portfólio de serviços para beleza e estética.</p></div><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></div>
+              <div class="project-info"><div><span class="project-type">SITE INSTITUCIONAL</span><h3>Nails Studio</h3><p>Serviços para beleza e estética.</p></div><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></div>
             </a>
-            <a class="project-card" href="https://tiger-tech-br.github.io/personal-trainer/" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto Personal Trainer (nova aba)">
+            <a class="project-card" href="https://tiger-tech-br.github.io/personal-trainer/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Personal Trainer (nova aba)">
               <div class="project-visual preview-trainer"><div class="trainer-stripes"></div><strong>EM<br>MOVIMENTO</strong><small>PERSONAL TRAINER</small></div>
-              <div class="project-info"><div><span class="project-type">SITE PROFISSIONAL</span><h3>Personal Trainer</h3><p>Apresentação para serviços de treinamento.</p></div><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></div>
+              <div class="project-info"><div><span class="project-type">SITE PROFISSIONAL</span><h3>Personal Trainer</h3><p>Apresentação de serviços de treinamento.</p></div><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></div>
             </a>
-            <a class="project-card" href="https://tiger-tech-br.github.io/auto-center/" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto Auto Center (nova aba)">
+            <a class="project-card" href="https://tiger-tech-br.github.io/auto-center/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Auto Center (nova aba)">
               <div class="project-visual preview-auto"><div class="auto-disc"></div><strong>AUTO<br>CENTER</strong><small>TECNOLOGIA EM CADA DETALHE</small></div>
               <div class="project-info"><div><span class="project-type">SITE INSTITUCIONAL</span><h3>Auto Center</h3><p>Serviços e presença digital para oficina.</p></div><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></div>
             </a>
           </div>
         </details>
       </section>
-
       <section class="section services-section container" id="servicos" aria-labelledby="services-title">
         <div class="section-title"><span class="title-rule"></span><h2 id="services-title">Serviços</h2><span class="title-rule"></span></div>
-        <p class="section-subtitle">Soluções digitais para apresentar e fortalecer seu negócio.</p>
         <div class="services-grid">
           <article class="service-item"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><h3>Sites<br>institucionais</h3></article>
           <article class="service-item"><svg class="icon" aria-hidden="true"><use href="#i-window"/></svg><h3>Landing<br>pages</h3></article>
@@ -148,12 +112,11 @@
           <article class="service-item"><svg class="icon" aria-hidden="true"><use href="#i-settings"/></svg><h3>Sistemas SaaS<br>e personalizados</h3></article>
         </div>
       </section>
-
-      <section class="info-section container" aria-label="Sobre e contato">
+      <section class="info-section container" aria-label="Sobre a Tiger Tech e contato">
         <div class="about-section" id="sobre">
           <h2>Sobre a <span>Tiger Tech</span></h2>
-          <p>A Tiger Tech cria sites, páginas profissionais e sistemas web para negócios, unindo identidade visual, tecnologia e atenção à experiência de quem utiliza.</p>
-          <p class="about-credit">Projeto desenvolvido por José Andrey.</p>
+          <p>A Tiger Tech cria sites e sistemas para negócios, unindo identidade visual, tecnologia e atenção à experiência de quem utiliza.</p>
+          <p class="about-credit">Desenvolvimento por José Andrey.</p>
         </div>
         <div class="contact-section" id="contato">
           <h2>Contato</h2>

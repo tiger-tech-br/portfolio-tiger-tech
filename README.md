@@ -1,26 +1,39 @@
-# Portfólio Tiger Tech
+# Portfólio Tiger Tech — versão Clínica Lumina
 
-Portfólio em **HTML e CSS puro**, adaptado do material enviado para reproduzir o estilo aprovado: preto, grafite, destaques em dourado/laranja e linhas de circuito nas bordas.
+Versão do portfólio comercial da Tiger Tech adaptada ao layout preto/grafite com detalhes dourados, bordas de circuitos eletrônicos e mockup da Clínica Lumina em notebook e celular.
 
-## Como abrir e publicar
+## Como utilizar
 
-Abra `index.html` no navegador ou use o Live Server no VS Code. Para atualizar o GitHub Pages, publique **todo o conteúdo desta pasta**, mantendo as pastas e os caminhos.
+1. Extraia o arquivo ZIP.
+2. Abra `index.html` no navegador ou use o Live Server do VS Code.
+3. Para publicar, envie `index.html`, `style.css` e a pasta `images/` mantendo a mesma estrutura.
 
-Não é necessário `npm install`, back-end ou build. Não há favicon.
+**Não é necessário instalar bibliotecas, npm ou usar back-end.** Não foi incluído favicon.
+
+## O que mudou
+
+- Emblema do tigre apresentado **inteiro dentro de um círculo** no cabeçalho, sem cortar o rosto, com fonte Oxanium para o nome Tiger Tech.
+- Hero com notebook e celular exibindo a **Clínica Lumina**, em uma imagem ilustrativa derivada do layout visual aprovado.
+- **Quatro** projetos em destaque: Clínica Lumina, Barber Studio, Sweet Cake e Pizzaria Express.
+- Mais três projetos preservados em **Ver todos os projetos**: Nails Studio, Personal Trainer e Auto Center.
+- Nomes, classes e textos relacionados à versão anterior da clínica removidos do HTML e CSS.
+- Estilo visual geral mantido próximo da referência: fundo escuro com circuitos dourados e brilho laranja, cartões de projetos, seis serviços, seção Sobre e contatos.
+- Seção Contato com Instagram, Facebook e e-mail comerciais. O CTA principal abre o Instagram Direct.
 
 ## Arquivos
 
-- `index.html` — estrutura da página, textos, projetos, serviços e links.
-- `style.css` — layout e responsividade (desktop, tablet e celular).
-- `images/logo-tiger-tech.jpg` — logo original enviado, preservado.
-- `images/tigre-emblema.webp` — recorte do símbolo do tigre para o cabeçalho horizontal.
-- `images/circuitos.svg` — fundo decorativo de circuitos, criado para o novo layout.
+- `index.html` — conteúdo, navegação e links.
+- `style.css` — estilos, cores, posicionamento e responsividade.
+- `images/hero-clinica-lumina.webp` — notebook e celular com a Clínica Lumina (ilustração do mockup aprovado).
+- `images/clinica-lumina-preview.webp` — prévia ilustrativa da Lumina para o card.
+- `images/tigre-circular.webp` — símbolo do tigre com margens para não cortar dentro do círculo.
+- `images/logo-tiger-tech-original.jpg` — logotipo original enviado, mantido como arquivo de referência.
+- `images/circuitos.svg` — decoração de circuitos em volta do portfólio.
 
 ## Observações
 
-- As imagens dos projetos referenciadas no HTML antigo **não foram enviadas**. Para não deixar imagens quebradas, os cards e a vitrine de computador/celular usam **ilustrações feitas em HTML/CSS**; não são screenshots autênticos dos sites.
-- Os links dos sete projetos originais foram mantidos. O card **Pet Care** foi substituído por **Clínica Lumina**, seguindo a alteração pedida anteriormente.
-- A Clínica Lumina aparece como **projeto demonstrativo**.
-- O botão principal “Solicite seu orçamento” leva ao Instagram Direct da Tiger Tech. Instagram, Facebook e email estão disponíveis na seção de contato. Não há botão de WhatsApp de contato ou telefone pessoal.
-- O botão “Ver todos os projetos” é um elemento HTML nativo (`details`/`summary`), sem JavaScript. O menu no celular também funciona sem JavaScript.
-- Endereços externos foram aproveitados do material enviado e da conversa; **a disponibilidade dos sites não foi verificada online**.
+- **Clínica Lumina é projeto demonstrativo**, não um cliente real.
+- As imagens da Clínica Lumina dentro dos mockups são ilustrações do layout aprovado; não são capturas verificadas do site publicado.
+- Os cards de outros projetos possuem capas desenhadas com CSS; os respectivos links foram mantidos conforme o material fornecido.
+- O site foi testado em renderização local nas larguras 1440, 820, 390 e 320 px: sem rolagem horizontal, com imagens carregadas e menus/detalhes funcionais. A disponibilidade dos links externos não foi verificada online.
+- A fonte Oxanium é carregada do Google Fonts quando houver conexão. Em modo offline, uma fonte alternativa será usada.
